@@ -11,6 +11,7 @@ nav.nav > a {
 }
 /* EX4) Write a selector to target the first blogpost */
 main .blog-main > h3 + .blog-post {
+  color: rgb(0, 255, 55) !important;
 }
 /* EX5) Write a selector to target the "even" links in the navbar */
 nav.nav > a:nth-child(2n) {
@@ -18,7 +19,7 @@ nav.nav > a:nth-child(2n) {
 }
 /* EX6) Write a selector to target the last blog post */
 main .blog-main .blog-post:last-of-type {
-  color: rgb(7, 56, 68) !important;
+  color: rgb(0, 204, 255) !important;
 }
 /* EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives ) */
 main .blog-sidebar div:nth-child(2) > ol > li {
