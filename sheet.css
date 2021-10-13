@@ -1,0 +1,45 @@
+/* 1 */
+.nav-scroller .nav a:nth-of-type(even) {
+  color: blue !important;
+}
+
+/* 2 */
+.nav > * {
+  color: red !important;
+}
+/* 3 */
+.jumbotron > div > h1 {
+  color: rgb(204, 84, 47) !important;
+}
+/* 4 */
+.jumbotron > div > p > a {
+  color: rgb(243, 17, 168) !important;
+}
+/* 5 */
+.blog-post:last-of-type {
+  color: goldenrod;
+}
+/* 6 */
+.blog-post:first-of-type {
+  color: goldenrod;
+}
+/* 7 */
+h4 + ol > li {
+  background-color: rgb(0, 255, 242);
+}
+/* 7 */
+.blog-post:nth-of-type(2) > p:first-of-type > a {
+  background-color: black;
+}
+/* 8 */
+body:nth-child(3) {
+  background-color: black;
+}
+/* 9 */
+p > a[href*="#"]:last-of-type {
+  color: red;
+}
+/* 10 */
+footer {
+  background-color: rgb(0, 0, 0);
+}
